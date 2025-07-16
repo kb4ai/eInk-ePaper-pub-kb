@@ -220,7 +220,7 @@ The Onyx Boox Mira Pro monochrome remains a solid choice for professionals prior
 ## File Index
 
 ### Specifications
-- `/specs/monochrome-vs-color-comparison.markdown`
+- `/specs/monochrome-vs-color-comparison.md`
 
 ### Official Documentation
 - `/official-pages/onyx-official-mira-pro-monochrome-specs.json`

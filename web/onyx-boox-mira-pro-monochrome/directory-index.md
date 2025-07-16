@@ -7,7 +7,7 @@
 ├── comprehensive-research-summary.md          # Main research summary
 ├── directory-index.md                         # This file
 ├── specs/
-│   └── monochrome-vs-color-comparison.markdown
+│   └── monochrome-vs-color-comparison.md
 ├── official-pages/
 │   ├── onyx-official-mira-pro-monochrome-specs.json
 │   └── onyxboox-official-mira-pro-specs.json
@@ -29,7 +29,7 @@
 - **directory-index.md**: Navigation guide for the research materials
 
 ### Specifications (/specs/)
-- **monochrome-vs-color-comparison.markdown**: Detailed comparison between monochrome and color versions
+- **monochrome-vs-color-comparison.md**: Detailed comparison between monochrome and color versions
 
 ### Official Documentation (/official-pages/)
 - **onyx-official-mira-pro-monochrome-specs.json**: Technical specifications from shop.boox.com
