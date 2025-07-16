@@ -1,0 +1,51 @@
+{
+  "source": "https://onyxboox.com/boox_mirapro",
+  "product_name": "Onyx Boox Mira Pro",
+  "screen_specifications": {
+    "size": "25.3 inch",
+    "technology": "E Ink Carta display",
+    "resolution": "3200x1800 pixels",
+    "pixel_density": "145 ppi",
+    "color_support": "16 shades of grey",
+    "lighting": "MOON Light 2 front light system"
+  },
+  "connectivity": {
+    "interfaces": [
+      "USB-C",
+      "Mini HDMI",
+      "HDMI",
+      "DisplayPort"
+    ],
+    "mounting": "VESA compatible"
+  },
+  "physical_specifications": {
+    "dimensions": "594.2 × 349.2 × 26.5 mm",
+    "weight": "2,750 grams (monitor only)"
+  },
+  "included_accessories": [
+    "Holder",
+    "Cables",
+    "User guide"
+  ],
+  "features": [
+    "Four screen refresh modes",
+    "Reduced eye strain compared to traditional monitors",
+    "Electronic paper technology",
+    "Text-heavy work optimization"
+  ],
+  "compatibility": [
+    "Windows",
+    "MacOS",
+    "Android",
+    "iOS"
+  ],
+  "target_users": [
+    "Editors",
+    "Programmers",
+    "Engineers",
+    "Students",
+    "Text-focused professionals"
+  ],
+  "warranty": "1 year",
+  "collection_date": "2025-07-16"
+}

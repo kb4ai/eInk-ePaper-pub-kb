@@ -1,0 +1,79 @@
+{
+  "product_name": "Onyx Boox Mira Pro Color",
+  "release_date": "May 2025",
+  "display_specifications": {
+    "size": "25.3 inches",
+    "technology": "E Ink Kaleido 3",
+    "resolution": {
+      "monochrome": "3200x1800 dpi",
+      "color": "1600x900 dpi"
+    },
+    "pixel_density": {
+      "monochrome": "145 ppi",
+      "color": "72 ppi"
+    },
+    "aspect_ratio": "16:9",
+    "colors": "4096 colors",
+    "grayscale_levels": "16 levels"
+  },
+  "connectivity": {
+    "ports": [
+      "USB Type-C (1 port)",
+      "Mini HDMI (1 port)", 
+      "HDMI (1 port)",
+      "DisplayPort (1 port)",
+      "DC power port"
+    ],
+    "compatibility": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android",
+      "iOS",
+      "iPadOS"
+    ]
+  },
+  "physical_specifications": {
+    "dimensions": "594.2 × 349.2 × 26.5 mm",
+    "weight": "2750 gr",
+    "material": "Aluminum build",
+    "mounting": "VESA 75 compatible"
+  },
+  "features": {
+    "lighting": "MOON Light 2 front light system",
+    "refresh_modes": 4,
+    "refresh_technology": "BOOX Super Refresh (BSR)",
+    "speakers": "Dual speakers built-in",
+    "stand": "Pivoting stand with height adjustment"
+  },
+  "pricing": {
+    "official_price": "$1,899",
+    "shipping_from": "Hong Kong",
+    "warranty": "1 year"
+  },
+  "included_accessories": [
+    "Monitor",
+    "Holder stand",
+    "User guide",
+    "Mini HDMI cable",
+    "HDMI cable",
+    "USB Type-C cable",
+    "USB Type-C to USB 2.0 cable",
+    "100-240V adapter",
+    "Warranty card"
+  ],
+  "target_users": [
+    "Professionals",
+    "Programmers",
+    "Engineers",
+    "Students",
+    "Editors"
+  ],
+  "use_cases": [
+    "Color-coded dashboards",
+    "Data analysis",
+    "Complex graphics work",
+    "Extended reading sessions",
+    "Eye-friendly computing"
+  ]
+}
