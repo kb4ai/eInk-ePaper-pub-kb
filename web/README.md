@@ -17,6 +17,8 @@ web/
 
 ## Collection Tool: jina.ai_reader
 
+`jina.ai_reader` wrapper around `jina.ai` API: <https://github.com/CLIAI/handy_scripts_CLIAI/> .
+
 ### Basic Usage
 ```bash
 # Download and process web content in multiple formats
