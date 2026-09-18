@@ -3,7 +3,7 @@
 ## Directory Structure
 
 ```
-~/kb/hardware-kb/hardware-2025-kb/eInk-ePaper-pub-kb/web/onyx-boox-mira-pro-monochrome/
+web/onyx-boox-mira-pro-monochrome/
 ├── comprehensive-research-summary.md          # Main research summary
 ├── directory-index.md                         # This file
 ├── specs/

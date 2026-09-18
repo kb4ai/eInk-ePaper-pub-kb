@@ -3,7 +3,7 @@
 ## Directory Structure Overview
 
 ```
-~/kb/hardware-kb/hardware-2025-kb/eInk-ePaper-pub-kb/web/dasung-revolutionary-37hz-13/
+web/dasung-revolutionary-37hz-13/
 ├── comprehensive-research-summary.md
 ├── directory-index.md
 ├── manuals/
