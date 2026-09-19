@@ -12,7 +12,8 @@ undecided as of 2026-09-18; the history travels with the repo either way.
 ## Where things go
 
 • `<YYYY-MM-DD>-<topic>.md` (repo root) → a research document on one question. Newest:
-  `2026-09-18-eInk-Laptop-Modos-Paper-Dev-Kit-on-Framework-13.md`.
+  `2026-09-19-Laptops-With-eInk-Displays-Compatibility-Survey.md` (which laptops can host e-ink at
+  all) and `2026-09-18-eInk-Laptop-Modos-Paper-Dev-Kit-on-Framework-13.md` (the Framework 13 build).
 • `<Vendor>-<model>.<Tool>.DeepResearch.md` (repo root) → raw deep-research output, tool named in the
   filename. Present: Dasung Paperlike 25.3", Onyx Boox Mira Pro 25.3", eInk phone-size comparison.
 • `web/<device-slug>/` → archived sources for one device or product family, with

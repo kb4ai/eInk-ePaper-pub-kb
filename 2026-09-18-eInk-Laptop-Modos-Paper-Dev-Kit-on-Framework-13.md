@@ -132,9 +132,11 @@ benefit, none of the chassis work, and the LCD stays available for anything e-in
 
 ### D. Buy a finished e-ink-ish laptop instead
 
-Not researched in depth here; named in the community thread as prior art: **Lenovo ThinkBook Plus
-Gen 4** (hybrid LCD/colour-e-ink), and **MNT Reform** as the open-hardware chassis precedent. ⇒ worth
-a separate comparison document.
+⇒ **Now researched: see `2026-09-19-Laptops-With-eInk-Displays-Compatibility-Survey.md`.** Short
+version: **you cannot.** Exactly one laptop ever shipped with an integrated E Ink screen — the
+**Lenovo ThinkBook Plus Gen 4** ("Twist"), 12" colour E Ink at **12 Hz** — and it is discontinued
+with no successor. **MNT Reform** is an open-hardware host candidate, but no e-ink option has ever
+shipped for it. Modos's own Paper Laptop was announced in 2022 and never released.
 
 ## Parts list for configuration B
 
