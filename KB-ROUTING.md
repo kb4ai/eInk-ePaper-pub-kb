@@ -12,6 +12,8 @@ undecided as of 2026-09-18; the history travels with the repo either way.
 ## Where things go
 
 • `<YYYY-MM-DD>-<topic>.md` (repo root) → a research document on one question. Newest:
+  `2026-09-20-Modos-Product-Line-And-Open-Source-Ecosystem.md` (what Modos sells and open-sources —
+  read this first for the Modos question),
   `2026-09-19-Framework-Configurations-For-An-eInk-Build.md` (what to buy, in what order, and what
   staging costs), `2026-09-19-Laptops-With-eInk-Displays-Compatibility-Survey.md` (which laptops can
   host e-ink at all) and `2026-09-18-eInk-Laptop-Modos-Paper-Dev-Kit-on-Framework-13.md` (the

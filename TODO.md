@@ -23,10 +23,13 @@ form". Opened 2026-09-19.
 
 ## Worth doing, not blocking
 
-* [ ] **Confirm the Framework 16 lid envelope against real drawings.** Our figure is computed from
-      16" at 16:10 and compared on active areas only — it ignores bezel, hinge, cable routing and
-      lid-cavity depth. If it survives contact with Framework's published CAD, the stronger laptop is
-      also the easier mechanical target, which is a significant result.
+* [ ] **Measure the lid cavity from Framework's published STEP files** — do not wait for a drawing.
+      `FrameworkComputer/Framework-Laptop-13` carries `Framework Laptop 13 CAD.stp` (and a Pro
+      variant) in its **base directory**, and the Laptop 16 repo carries system CAD too.
+      ⚠ An earlier note in this repo implied Framework publishes only the eDP pinout — that came from
+      reading the `Display/` subdirectory alone. The system CAD is in the base directory.
+      ⇒ Open the STEP, measure the lid cavity: usable depth, bezel aperture, hinge and cable-exit
+      geometry. That converts our envelope arithmetic into a real answer for both the 13 and the 16.
 * [ ] **Ask the community whether an FW16 lid design exists or is wanted**, given the above.
 * [ ] **Verify DisplayPort Alt Mode on whichever host will drive the panel.** Vendor spec sheets
       list it on many older ThinkPads (the E595 among them), but spec-sheet presence is not a tested
@@ -47,6 +50,27 @@ form". Opened 2026-09-19.
   §5 of `2026-09-19-Framework-Configurations-For-An-eInk-Build.md`.
 * ⛔ **Do not stage the CPU purchase.** Costs $20–110 for optionality on a question that is not in
   doubt; Stage 0 (kit on an existing machine) removes the real uncertainty for free.
+
+## ⭐ The build path, now that 3D printing is available
+
+Greg confirmed 2026-09-20 that he can 3D print. ⇒ **Fabrication is no longer the blocker, and neither
+is CAD data — both halves are already public.** What is missing is the design work joining them.
+
+1. [ ] **Get the two CAD inputs.** Modos's 13.3" module case — **back plate, frame, buttons**, in
+       **STL, STP and DWG** — from the Glider repo, and Framework's system STEP. ⭐ Modos's frame is
+       the panel-mounting geometry *already solved* for exactly this panel, and STP/DWG are editable,
+       not just mesh.
+2. [ ] **Decide which laptop the shell targets**, because the part differs completely:
+       * **Framework 13** → a custom **lid** (structural; the panel is 12.7 mm too tall for the stock
+         opening). Higher risk, but it is the build that has been demonstrated.
+       * **Framework 16** → a custom **bezel + panel carrier** inside a stock lid (the panel fits the
+         opening with room). The bezel is magnetic, tool-free and sold separately, so this route
+         looks **reversible** — refit the stock bezel and panel and the laptop is standard again.
+3. [ ] **Print a fit-check part before buying anything.** The panel's outline is known; a printed
+       blank at panel dimensions, offered up to a lid, answers the fit question for the cost of
+       filament. ⇒ Do this before committing to a laptop model.
+4. [ ] **Publish whatever comes out of it.** No laptop-lid design for this panel is public; the two
+       inputs are. A published part would be the missing piece for everyone, not just for us.
 
 ## Repo housekeeping
 
