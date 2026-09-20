@@ -60,6 +60,43 @@ mechanical design of the Framework 13 e-ink lid remains unpublished anywhere we 
 ⇒ **That is the single highest-value question to ask him**, and his repo's issue tracker is the
 appropriate public place to ask it.
 
+## Complete inventory of his published work on this topic
+
+Checked 2026-09-20. ⭐ **This is everything, and the capture is complete.**
+
+| What | Where | Captured? |
+|---|---|---|
+| `omarchy-modos-eink` — the software | GitHub, MIT | ✅ **all 12 files**, verified against the upstream tree |
+| The demonstration video | YouTube, unlisted | ✅ 6 resolutions + metadata (no subtitles exist) |
+| 4 posts opening the build thread | DIY Perks forum, 2025-08 | ✅ archived in `web/modos-paper-dev-kit/research-sources/` |
+| His other **43** public repos | GitHub | ⛔ nothing on this topic — Pali/Buddhist text tooling, fractals, Obsidian plugins, an unrelated Omarchy plugin |
+| `cittadhammo.github.io`, `dhammacharts.org` | his own sites | ⛔ no mention of the build |
+| Issues/PRs on the e-ink repo | GitHub | ⛔ **zero** — no build discussion there yet |
+
+⇒ **No lid CAD exists in any of it.** The mechanical design has never been published anywhere.
+
+## Contacting him — public channels only
+
+⚠ **He publishes no email and no Twitter.** His GitHub profile carries only a name, `dhammacharts.org`
+and the bio *"Bhikkhu in UK"*; 13 followers; the video's channel has 10 subscribers and the upload is
+unlisted. ⇒ This is a private individual who has not invited contact, and we treat it that way:
+**use the channels attached to the work, and do not look for personal contact details.**
+
+In order of appropriateness:
+
+1. ⭐ **A GitHub issue on `omarchy-modos-eink`** — the repo is MIT, public, and has **zero issues**,
+   so a polite question about whether the lid design exists would be the first. Directly tied to the
+   work, and he chose to publish it.
+2. **The Modos Discord** (<https://discord.gg/6ktE6VxSyh>) — where the build was discussed and where
+   Modos pointed people.
+3. **A reply on the DIY Perks thread** he opened.
+4. **A YouTube comment** on the video (4 comments already) — least appropriate: the upload is
+   unlisted, so it is the most private of the four.
+
+⛔ Do not email-hunt, cross-reference his monastic name against other sites, or compile a profile.
+The question we want answered — *"are the lid files published anywhere?"* — is answerable in one
+public sentence on his own repo.
+
 ## Provenance note on the video
 
 The demonstration video (`ZSxYI14JdMM`, "Modos Framework 13", 2:25, 2026-09-17) is on **his own**
