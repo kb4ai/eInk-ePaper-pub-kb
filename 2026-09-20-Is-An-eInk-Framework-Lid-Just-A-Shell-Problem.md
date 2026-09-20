@@ -37,11 +37,22 @@ This repo previously compared the panel's **active area** to the lid's **active 
 | ED133UT3 **outline** | **285.80 × 213.65 × 0.78 mm** | ⛔ **~23.7 mm too tall, ~0.9 mm too wide** | ✅ fits — by only **~1.75 mm** in height |
 | (its active area) | 270.40 × 202.80 mm, 4 mm bezel, 96 g | — | — |
 
-⇒ **A Framework 13 lid cannot take this panel at all** — not "needs a custom lid", but *the panel is
-larger than the lid's whole window*. Any 13-based build is a new, larger lid, not a re-bezel.
-⇒ **A Framework 16 has ~1.75 mm of margin.** Positive, but thin enough that the lid **cavity depth**
-— not the opening — is now the deciding number, and the panel's folded source-driver COFs thicken it
-locally in a band along the tail edge.
+⚠ **Second correction, same day — the above is about the BEZEL OPENING, not the lid.** An earlier
+version of this section concluded "a Framework 13 cannot take this panel at all". That is wrong, and
+the demonstrated build proves it: **Cittadhammo's e-ink build is on a Framework 13.** The reconciling
+number is the lid's **outer footprint**:
+
+| | footprint | panel outline 285.80 × 213.65 mm |
+|---|---|---|
+| Framework 13 chassis | **296.63 × 228.98 mm** | ✅ fits — **~10.8 mm** spare width, **~15.3 mm** spare depth |
+| Framework 16 chassis | ~357 × 270 mm (vendor lists 270 × 357; width/depth ordering is inconsistent between sources) | ✅ fits easily |
+
+⇒ **The correct statement:** the panel does not fit *the stock bezel aperture* on either machine — it
+is bigger than the 13's whole LCD window — but it fits comfortably *within the 13's lid footprint*.
+That is precisely what "a custom lid" means, and it is why the working build is a 13. ⛔ It is a new
+lid, not a re-bezel. A re-bezel is only conceivable on the 16, where the panel clears the existing
+aperture by ~1.75 mm — and there the lid **cavity depth** becomes the deciding number, since the
+panel's folded source-driver COFs thicken it locally along the tail edge.
 
 ⚠ Also note **Glider tops out at 13.3" panels**. A "16-inch e-ink laptop" is not on the table; this is
 a 13.3" panel in a 16" lid, leaving ~59 mm of dead width to design around.
