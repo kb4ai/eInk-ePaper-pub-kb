@@ -7,7 +7,7 @@ Modos sell a product you can use to give a Framework laptop an e-ink screen?*
 ## ⭐ Short answer: yes — they sell the whole electronics half, and open-source more than that
 
 **The 13" Paper Dev Kit IS the product.** Panel + Glider FPGA driver board + Glider Mega Adapter, in
-stock, $599. That is everything electronic needed to put e-ink on a laptop. It is not a
+stock, $699. That is everything electronic needed to put e-ink on a laptop. It is not a
 laptop-shaped part, and Modos has never claimed it was — but "they don't sell a product for this" is
 the wrong summary. They sell the hard part.
 
@@ -17,13 +17,17 @@ What they do **not** sell is a laptop **lid**. Nobody does, for any laptop.
 
 | Product | Contents | Status | Price |
 |---|---|---|---|
-| **13" Paper Dev Kit** | 13.3" 1600×1200 E Ink panel (ED133UT3 class, Carta 1000, 150 PPI), Glider driver board, Glider Mega Adapter | In stock | **$599** |
-| **6" Paper Dev Kit** | 1448×1072 panel, same controller and adapter | In stock | **$199** |
+| **13" Paper Dev Kit** | 13.3" 1600×1200 E Ink panel (ED133UT3 class, Carta 1000, 150 PPI), Glider driver board, Glider Mega Adapter | In stock | **$699** |
+| **6" Paper Dev Kit** | 1448×1072 panel, same controller and adapter | In stock | **$249** |
 | **Modos Flow** | Finished 13.3" 3200×2400 (300 PPI) monitor, touch, Carta 1300 or Kaleido 3 | Pre-order, ships target 2026-12-10 | **$699** B&W / **$799** colour |
 
-⚠ **Correction carried from the first pass:** the kits are **$599 / $199**, not the $699 / $249 that
-circulated with Modos's 2026-09-17 post. $699 is the *Flow* price. Evidence archived in
-`web/modos-paper-dev-kit/`.
+⚠ **PRICE CORRECTION, 2026-09-20 — this repo had it wrong.** The kits are **$699 (13")** and
+**$249 (6")**, confirmed from a LIVE fetch of the Crowd Supply order section ("$249 $8 US Shipping",
+"$699 Free US Shipping", both "In stock"; page header "$249 - $699").
+⛔ This repo previously asserted $599/$199 and told the reader those were a *correction* to the figures
+circulating with Modos's post. That was wrong: $599/$199 are stale **campaign** prices that survive
+only in the page's own comparison tables and one image alt-text. Both of the "independent" checks used
+to support the claim read that same table. ⇒ The figures originally supplied to this repo were right.
 
 ## ⭐ What Modos open-sources — this is the part the first pass missed
 
@@ -69,7 +73,7 @@ acceptable **given clear instructions**; more purchased, less improvised, is bet
 | Touch / frontlight / stylus | ✅ (frontlight and stylus on the colour model) | ⛔ none |
 | Refresh | 60 Hz (40 Hz on bus power alone) | up to 75 Hz |
 | Availability | pre-order, ships target **2026-12-10** | in stock — ⚠ see the note below |
-| Price | $699 B&W / $799 colour | $599 |
+| Price | $699 B&W / $799 colour | **$699 — the same** |
 | Drives a *different* panel later | ⛔ sealed | ✅ Mega Adapter covers 4.3"–13.3" |
 
 ⚠ **Stock wording is contested between our own sources, so check it yourself before ordering.** A

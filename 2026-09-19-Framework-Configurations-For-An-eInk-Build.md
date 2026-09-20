@@ -58,7 +58,7 @@ and it is the only one that does.
 ⭐ **Stage on the uncertainty, and the uncertainty is not the CPU — it is whether you like e-ink.**
 A staged CPU plan tests the wrong variable. The right first stage costs no laptop money at all.
 
-### Stage 0 — test e-ink on a machine you already own. **$599, no laptop purchase.**
+### Stage 0 — test e-ink on a machine you already own. **$699, no laptop purchase.**
 
 The kit is an external monitor, so plug it into an existing ThinkPad and use it for weeks on real
 work — terminal, PDFs, code, long reading — before deciding anything.

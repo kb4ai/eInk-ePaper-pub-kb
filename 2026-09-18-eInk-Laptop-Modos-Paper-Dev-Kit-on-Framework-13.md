@@ -17,20 +17,23 @@ sourced at the bottom with its URL. Re-check before spending money.
   the **Ryzen AI 9 HX 370** and stop thinking about it.
 * **The panel does not fit a stock Framework lid, and the signal path does not connect.** Two separate
   blockers, both requiring custom work — see "Why this is not a display-kit swap".
-* **Cheapest useful step is not a laptop at all**: the 13" Dev Kit or a Flow on the desk, $599–$799.
+* **Cheapest useful step is not a laptop at all**: the 13" Dev Kit or a Flow on the desk, $699–$799.
 
 ## What you can actually buy (2026-09-18)
 
 | Product | What it is | Status | Price | Source |
 |---|---|---|---|---|
-| **13" Paper Dev Kit** | 13.3" 1600×1200 E Ink panel + Glider FPGA driver board + Glider Mega Adapter | In stock ("limited items") | **$599** | Crowd Supply |
-| **6" Paper Dev Kit** | 1448×1072 panel, same controller | In stock | **$199** | Crowd Supply |
+| **13" Paper Dev Kit** | 13.3" 1600×1200 E Ink panel + Glider FPGA driver board + Glider Mega Adapter | In stock, ships in ~3 business days | **$699** | Crowd Supply |
+| **6" Paper Dev Kit** | 1448×1072 panel, same controller | In stock | **$249** | Crowd Supply |
 | **Modos Flow** | Finished 13.3" 3200×2400 portable e-ink **monitor**, touch | Pre-order; ships target **2026-12-10** | **$699** B&W / **$799** colour | Crowd Supply |
 
-⚠ **Correction to the figures circulating with the tweet:** the dev kits are **$599 / $199**, not
-$699 / $249. Both Crowd Supply comparison tables (the Paper Monitor page and the Flow page) agree on
-$599 and $199, and an independent answer-with-citations check returned the same. The $699 figure is
-the **Flow B&W** price, which is a different product.
+⚠ **PRICE CORRECTION, 2026-09-20 — this repo had it wrong.** The kits are **$699 (13")** and
+**$249 (6")**, confirmed from a LIVE fetch of the Crowd Supply order section ("$249 $8 US Shipping",
+"$699 Free US Shipping", both "In stock"; page header "$249 - $699").
+⛔ This repo previously asserted $599/$199 and told the reader those were a *correction* to the figures
+circulating with Modos's post. That was wrong: $599/$199 are stale **campaign** prices that survive
+only in the page's own comparison tables and one image alt-text. Both of the "independent" checks used
+to support the claim read that same table. ⇒ The figures originally supplied to this repo were right.
 
 Shipping is real, not promised: as of the 2026-04-01 campaign update Modos had shipped **260× 13"
 kits and 215× 6" kits**.
@@ -114,7 +117,7 @@ Core counts beyond the HX 370's 12C/24T were not verified per-SKU here.
 
 ### A. Desk monitor — no modification (recommended first step)
 
-13" Dev Kit ($599) or Flow ($699/$799) on USB-C, laptop untouched. **Flow is the better display**
+13" Dev Kit ($699) or Flow ($699/$799) on USB-C, laptop untouched. ⭐ At $699 the kit costs **the same as Flow B&W**, so **Flow is the better display**
 (3200×2400 vs 1600×1200, touch, frontlight on the colour model) — but note Flow runs at **40 Hz on
 bus power alone and reaches its full 60 Hz only with additional power**, so a portable-only setup is
 a 40 Hz setup.
@@ -141,7 +144,7 @@ shipped for it. Modos's own Paper Laptop was announced in 2022 and never release
 ## Parts list for configuration B
 
 1. Framework Laptop 13, DIY edition, **Ryzen AI 9 HX 370** mainboard
-2. Modos **13" Paper Dev Kit** — $599 (panel + Glider board + Mega Adapter)
+2. Modos **13" Paper Dev Kit** — $699 (panel + Glider board + Mega Adapter)
 3. Custom lid/chassis — 3D print for prototyping, metal print (e.g. JLCPCB) for the final
 4. Internal USB-C → Glider cabling in DP Alt Mode, plus a bay or internal route
 5. Power provision for Glider's ±15 V rail

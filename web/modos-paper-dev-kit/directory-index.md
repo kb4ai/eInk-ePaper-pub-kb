@@ -15,16 +15,25 @@ web/modos-paper-dev-kit/
 ## Why these captures exist
 
 Every price, stock state and ship date in the companion analysis rots. These captures are the
-**evidence as it stood on 2026-09-18**, so a later reader can tell whether a figure changed or was
-wrong to begin with. Both Crowd Supply captures contain the string `$599`, which is the dev-kit price
-the analysis cites *against* the $699 figure that circulated with Modos's 2026-09-17 post.
+evidence as it stood, so a later reader can tell whether a figure changed or was wrong to begin with.
+
+⛔ **They already caught one — ours.** The 2026-09-18 extractions contain `$599`, and this repo cited
+that *against* the $699 figure supplied with Modos's post. A **live** fetch on 2026-09-20 settled it:
+the order section reads **$699 (13")** and **$249 (6")**. `$599`/`$199` are stale campaign prices
+surviving in the page's own comparison tables. ⇒ The extraction never contained the order widget, this
+index said so, and the claim was asserted anyway. **A capture that omits the part of the page carrying
+the answer is not evidence for that answer.**
 
 ## Official Pages (`official-pages/`)
 
 1. **Modos Paper Monitor / Paper Dev Kit** — `www_crowdsupply_com_modos-tech_modos-paper-monitor.*`
    Campaign page: Glider driver-board reference design, Caster gateware capabilities, the Glider Mega
-   Adapter's supported panel list by connector pitch, and the comparison table carrying the $599 /
-   $199 kit prices.
+   Adapter's supported panel list by connector pitch, and the (stale) comparison table carrying the
+   $599 / $199 campaign prices.
+   ⭐ **2026-09-20 multi-format live capture**, added because a single thin extraction misled us:
+   `.html` (raw, 54 KB), `.md` (jina.ai reader, 19 KB — includes the ORDER section), `.pdf`
+   (A4, rendered via pandoc/xelatex), `.links.json` (47), `.images.json` (33), `.title.txt`, `.url`.
+   ⇒ Prefer the `.md`/`.html` pair over the older `.json`: only they contain the purchasing widget.
 2. **Modos Flow** — `www_crowdsupply_com_modos-tech_modos-flow.*`
    Finished 13.3" 3200×2400 monitor: specifications, the 40 Hz-on-bus-power vs 60 Hz-with-extra-power
    distinction, Modos's own position on panel longevity under fast refresh, and the $699 / $799

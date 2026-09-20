@@ -71,7 +71,7 @@ a monitor, and no laptop.
 ## What this means in practice
 
 1. **Want e-ink with a laptop today, no hardware work?** Any laptop you already own, plus a 13" Paper
-   Dev Kit ($599) or a Flow ($699/$799). The laptop is not the constraint.
+   Dev Kit ($699) or a Flow ($699/$799). The laptop is not the constraint.
 2. **Want e-ink *in* the lid?** Framework Laptop 13 plus a custom lid, accepting 150 PPI. The only
    route with a demonstrated example.
 3. **Want to buy a finished e-ink laptop?** You cannot. The one that existed is discontinued and ran
