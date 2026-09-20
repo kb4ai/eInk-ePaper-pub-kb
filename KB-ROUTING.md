@@ -18,6 +18,9 @@ undecided as of 2026-09-18; the history travels with the repo either way.
   staging costs), `2026-09-19-Laptops-With-eInk-Displays-Compatibility-Survey.md` (which laptops can
   host e-ink at all) and `2026-09-18-eInk-Laptop-Modos-Paper-Dev-Kit-on-Framework-13.md` (the
   Framework 13 build and its blockers).
+• `community-builds/` → published work by people who have actually built e-ink laptop setups, under
+  their own licences. ⚠ Private individuals: archive their PUBLISHED technical work and the public
+  channel for reaching them; ⛔ never personal details or contact harvesting.
 • `TODO.md` (repo root) → open items, so gaps are visible rather than buried in prose. Read it before
   starting e-ink work; it records what we deliberately are NOT doing, with reasons.
 • `<Vendor>-<model>.<Tool>.DeepResearch.md` (repo root) → raw deep-research output, tool named in the
