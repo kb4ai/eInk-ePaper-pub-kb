@@ -46,6 +46,54 @@ Scale and liveness as of 2026-09-20: **2,159 stars, 75 forks, 4 contributors, la
 Principal author **Wenting Zhang (zephray)**; Flow is described as the result of roughly four years
 of development, with its designs also open-sourced.
 
+## ⭐ If you would rather buy than build
+
+A stated preference (2026-09-20): buy where possible; 3D printing and simple soldering are
+acceptable **given clear instructions**; more purchased, less improvised, is better.
+
+⇒ **Two findings matter, and one of them removes a worry:**
+
+* ⭐ **No soldering is required, at any point.** The kits ship **electrically pre-assembled** — panel,
+  mainboard, adapter and ribbon cable already connected. The only thing missing is an *enclosure*.
+  The DIY in this project is **mechanical, never electrical**.
+* ⛔ **There is no pre-assembled, cased Dev Kit for sale.** Reviewers have been sent demo units in
+  custom wooden frames; those are not the product. Modos publishes printable STEP models for cases
+  instead. For a finished chassis you buy **Flow**, not the kit.
+
+### Which to buy, if buying is the preference
+
+| | **Modos Flow** | **13" Paper Dev Kit** |
+|---|---|---|
+| Finished product? | ✅ yes, nothing to make | ⛔ no enclosure |
+| Resolution | **3200×2400, 300 PPI** | 1600×1200, **150 PPI** |
+| Touch / frontlight / stylus | ✅ (frontlight and stylus on the colour model) | ⛔ none |
+| Refresh | 60 Hz (40 Hz on bus power alone) | up to 75 Hz |
+| Availability | pre-order, ships target **2026-12-10** | in stock — ⚠ see the note below |
+| Price | $699 B&W / $799 colour | $599 |
+| Drives a *different* panel later | ⛔ sealed | ✅ Mega Adapter covers 4.3"–13.3" |
+
+⚠ **Stock wording is contested between our own sources, so check it yourself before ordering.** A
+search index today returns *"In stock. Order now, ships within three business days"* and **479
+backers**; our archived page capture says *"Limited items in stock"* and **436 backers**, and
+re-fetching it on 2026-09-20 returned a byte-identical result. ⇒ The fetch tool is serving a
+**cache**, not a live page. Both readings agree the kit is purchasable now; they disagree on how
+comfortably. ⛔ Do not treat the archived capture as current — it is evidence of what a page said
+when it was *indexed*, not when it was fetched.
+
+⇒ **For a desk display, Flow is the better purchase, not the kit** — double the pixel density, touch,
+finished, for $100–200 more. The kit's advantages are availability today and that it is a *platform*:
+the Mega Adapter drives other panels, including salvaged ones from broken e-readers.
+
+### ⛔ The one thing money cannot buy
+
+**An e-ink laptop.** No amount of spending produces a panel in a laptop lid: no vendor sells one, the
+only mass-produced e-ink laptop is discontinued, and Modos's own Paper Laptop was never released. ⇒
+The in-lid build is the **only** route, and it is unavoidably a build. What *can* be bought is the
+fabrication: once a design exists, a printing service will make the part instead of a home printer.
+
+⇒ **Buying and building are not competing plans here — they answer different questions.** Buy Flow
+for the desk; the kit plus a printed shell is the only path into a lid.
+
 ## ⇒ What this changes for a laptop build
 
 The first pass framed the mechanical problem as "you are on your own". That was too pessimistic.

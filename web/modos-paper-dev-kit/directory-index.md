@@ -54,7 +54,11 @@ Captured with `exa-ai-search --contents <url> --full --json` (not jina.ai_reader
 * **`.url`** — the original URL
 
 ⚠ These are **content extractions, not archival snapshots**: no images, no styling, and the extractor
-may drop page regions. For the dev kit's live order section in particular, the extraction did not
+may drop page regions.
+⛔ **They may also be CACHED rather than live.** Re-fetching the Paper Monitor page on 2026-09-20
+returned a byte-identical result to the 2026-09-18 capture (same "Limited items in stock", same 436
+backers) while a search index the same day reported 479 backers and "ships within three business
+days". ⇒ A capture dates the *index*, not the fetch. Never cite one as the current state of a page. For the dev kit's live order section in particular, the extraction did not
 include the order widget — the prices cited come from the on-page comparison tables, cross-checked
 against an independent citation-backed query.
 
