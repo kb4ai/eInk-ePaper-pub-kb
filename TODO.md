@@ -6,20 +6,23 @@ form". Opened 2026-09-19.
 
 ## Blocking a real decision
 
-* [ ] **Ask Modos: Glider board dimensions and mounting.** Will the driver board fit inside a laptop
-      lid or lid cavity, or must it sit in an expansion bay / externally? ⇒ This is the actual
-      integration constraint for any in-lid build and we do not have the number. Entry point: Modos
-      Discord, <https://discord.gg/6ktE6VxSyh>.
+* [x] ~~Ask Modos: Glider board dimensions.~~ ⭐ **ANSWERED 2026-09-20 without asking** — the board is
+      **90.00 × 80.00 mm**, 1.0044 mm PCB, 3× M2 holes, measured from `Edge.Cuts` in
+      `pcb/mainboard/pcb.kicad_pcb`. Modos states it nowhere in prose; the KiCad source had it.
+* [ ] **Still open, the MOUNTING half:** where the board physically sits in a build — lid, lid cavity,
+      or base — and whether the ±15 V rail can run off laptop power. Ask via the Modos Discord.
 * [ ] **Ask Modos: is a higher-density kit-drivable panel planned?** Flow's 300 PPI Carta 1300 panel
       is not available to the dev kit, so a DIY build is capped at **150 PPI**. ⭐ This is the ceiling
       on the whole project and it matters more than any laptop choice — a 300 PPI kit panel would
       change the recommendation.
 * [ ] **Ask Modos: can Glider's ±15 V rail run off laptop-internal power**, or does it always need a
       separate supply?
-* [ ] **Obtain the ED133UT3 datasheet.** Needed for two numbers we currently do not have: the panel's
-      **exact active area** (ours is derived from geometry — nobody should cut material on it) and
-      its **vendor refresh-endurance figure**, which is the only thing that would settle the
-      contested lifetime question in `2026-09-18-...-Framework-13.md`.
+* [x] ~~Obtain the ED133UT3 datasheet for the active area.~~ ⭐ **ANSWERED 2026-09-20** — panel
+      **outline 285.80 × 213.65 × 0.78 mm**, active **270.40 × 202.80 mm**, 4 mm bezel, 96 g. ⚠ The
+      earlier figure here was derived from geometry; the real one changed the conclusion, so the fit
+      tables were rewritten against the OUTLINE. Do not reinstate the derived number.
+* [ ] **Still open, the ENDURANCE half:** the panel's vendor refresh-endurance figure — the only thing
+      that would settle the contested lifetime question in `2026-09-18-…-Framework-13.md`.
 
 ## Worth doing, not blocking
 
