@@ -52,13 +52,20 @@ research could only speculate about:
   from the device, only remembered locally. The 13" mono kit has no front light anyway.
 * The Dev Kit has a **third physical button** that forces a full-screen redraw to clear ghosting.
 
-### ⛔ What is NOT published — the thing we actually wanted
+### ⚠ SUPERSEDED 2026-09-28 — the mechanical design IS published
 
-**No lid, bezel, chassis or CAD file of any kind.** The repo is software only. As of 2026-09-20 the
-mechanical design of the Framework 13 e-ink lid remains unpublished anywhere we can find.
+This section previously read: *"No lid, bezel, chassis or CAD file of any kind… the single
+highest-value question to ask him."* ⛔ **That is no longer true and the question has been retired.**
 
-⇒ **That is the single highest-value question to ask him**, and his repo's issue tracker is the
-appropriate public place to ask it.
+The builder announced a finished build on 2026-09-27, stating that **3D-printed chassis files, a BOM,
+OS notes and references are on a Thingiverse page** (`thing:7413807`). ⚠ The reference is
+**corroborated by an independent repost**; the **page contents have not been read** — Thingiverse
+renders client-side and returns HTTP 200 for nonexistent IDs, so it could not be confirmed directly.
+⇒ Full status, and what remains unverified, in
+`../2026-09-28-Cittadhammo-Framework-13-Build-Published.md`.
+
+⇒ **What is still not established:** the listing's licence, whether its chassis matches the current
+Dev Kit revision, and everything about its actual contents.
 
 ## Complete inventory of his published work on this topic
 

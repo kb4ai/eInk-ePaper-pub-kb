@@ -1,3 +1,18 @@
+# ⛔ RETIRED 2026-09-28 — DO NOT SEND
+
+**Its premise is false.** This issue asks *"is the lid/enclosure design published anywhere?"* — and it
+is: chassis files, BOM and OS notes are reported on `thingiverse.com/thing:7413807`, linked from the
+builder's own 2026-09-27 announcement. ⇒ Sending it would ask a private individual a question answered
+on a page he linked himself, which reads as not having looked.
+
+⚠ **Do not reword it into a new question yet.** Most of what it asks — where the board sits, whether it
+runs off laptop power — is plausibly answered by the BOM and chassis files. **Read the listing first**;
+ask only about what is genuinely missing afterwards, and ask it specifically.
+
+Kept for provenance only. Original below.
+
+---
+
 # DRAFT — not posted
 
 **Target:** <https://github.com/cittadhammo/omarchy-modos-eink/issues/new>

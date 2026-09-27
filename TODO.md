@@ -59,10 +59,13 @@ form". Opened 2026-09-19.
 Greg confirmed 2026-09-20 that he can 3D print. ⇒ **Fabrication is no longer the blocker, and neither
 is CAD data — both halves are already public.** What is missing is the design work joining them.
 
-0. [ ] ⭐ **ASK CITTADHAMMO WHETHER THE LID DESIGN EXISTS.** He published the software half
-       (`github.com/cittadhammo/omarchy-modos-eink`, MIT) but **no CAD of any kind**. His issue
-       tracker is the appropriate public place to ask. ⇒ If he shares it, steps 1–3 collapse from
-       "design it" to "print it", and this is by far the highest-value action on this list.
+0. [x] ~~⭐ **ASK CITTADHAMMO WHETHER THE LID DESIGN EXISTS.**~~ ⭐ **ANSWERED 2026-09-28 — IT DOES.**
+       Chassis files, BOM and OS notes are reported on `thingiverse.com/thing:7413807`; the drafted
+       issue is **RETIRED** (`drafts/`). ⇒ New first task: **read that listing** and record its
+       licence and contents. Until someone does, everything about it here is second-hand.
+       ⚠ Superseded text, kept so the reversal is legible: *"He published the software half … but no
+       CAD of any kind. His issue tracker is the appropriate public place to ask. If he shares it,
+       steps 1–3 collapse from design-it to print-it."* ⇒ He had already shared it; the gap was ours.
 1. [ ] **Get the two CAD inputs.** Modos's 13.3" module case — **back plate, frame, buttons**, in
        **STL, STP and DWG** — from the Glider repo, and Framework's system STEP. ⭐ Modos's frame is
        the panel-mounting geometry *already solved* for exactly this panel, and STP/DWG are editable,
